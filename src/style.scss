@@ -163,6 +163,22 @@ body {
           flex-direction: column;
           width: 50%;
           height: 100%;
+          gap: 30px;
+
+          .text-Input {
+            width: 200px;
+            height: 100px;
+            background-color: transparent;
+            color: white;
+            border: solid white 5px;
+            font-family: $fontOne;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 5rem;
+          }
         }
       }
     }

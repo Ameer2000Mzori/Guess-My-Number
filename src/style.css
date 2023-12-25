@@ -162,4 +162,20 @@ body {
   flex-direction: column;
   width: 50%;
   height: 100%;
+  gap: 30px;
+}
+
+.header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .text-Input {
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  color: white;
+  border: solid white 5px;
+  font-family: "Black Ops One", sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 5rem;
 }
