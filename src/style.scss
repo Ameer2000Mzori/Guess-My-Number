@@ -285,5 +285,94 @@ body {
 }
 // responsvness
 @media screen and (max-width: 768px) {
-  // 768px
+  .header {
+    .header-Wrap {
+      .again-And-Text-Wrap {
+        .again-Btn {
+          padding: 10px 40px;
+          font-size: 15px;
+        }
+
+        .again-Right-Text {
+          padding: 0;
+          text-align: center;
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          height: 50px;
+          font-size: 0.8rem;
+        }
+      }
+
+      .Title-Wrap {
+        .Title-Text {
+          font-size: 1.3rem;
+        }
+      }
+
+      .decoration-Wrap {
+        .decoration-Box {
+          height: 100px;
+          width: 100px;
+          border: none;
+
+          .decoration-Text {
+            font-size: 4rem;
+          }
+        }
+
+        .decoration-Line {
+          width: 100%;
+          height: 3px;
+          top: 50%;
+          left: 0;
+          border: none;
+        }
+      }
+
+      .score-Input-Wrap {
+        .input-Wrap {
+          .input-Btn-Wrap {
+            .number-Input {
+              font-size: 2rem;
+              width: 75%;
+            }
+
+            .check-Btn {
+              font-size: 1.2rem;
+              width: 75%;
+            }
+          }
+        }
+
+        .score-Wrap {
+          border: solid white 5px;
+          border-right: none;
+          border-top: none;
+          border-bottom: none;
+
+          .score-Wrap-Wrapper {
+            gap: 15px;
+
+            .title-Text-Score-Wrap {
+              .score-1-Text {
+                font-size: 1.2rem;
+              }
+            }
+          }
+
+          .Score-Number-Wrap {
+            .main-Score {
+              font-size: 1.2rem;
+            }
+
+            .high-Score {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
