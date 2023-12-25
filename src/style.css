@@ -109,7 +109,6 @@ body {
   position: absolute;
   height: 200px;
   width: 200px;
-  border-radius: 50%;
   top: 50%;
   background-color: aliceblue;
   color: rgb(99, 91, 91);
@@ -121,6 +120,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
+  border: solid rgb(99, 91, 91) 3px;
   z-index: 5;
 }
 
@@ -129,7 +129,7 @@ body {
   height: 15px;
   background-color: aliceblue;
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 0;
   border-radius: 15px;
   border: solid rgb(99, 91, 91) 3px;
