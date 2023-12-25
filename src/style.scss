@@ -25,7 +25,8 @@ body {
     .again-And-Text-Wrap {
       display: flex;
       height: 10%;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-between;
       align-items: center;
       width: 100%;
     }
