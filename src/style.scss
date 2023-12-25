@@ -192,9 +192,14 @@ body {
             align-items: center;
             justify-content: center;
             font-size: 2.5rem;
+            transition: all 50ms ease-in-out;
+            cursor: pointer;
 
             &:hover {
               transform: scale(1.1);
+              background-color: white;
+              border: solid $colorBackGroundTwo 5px;
+              color: $colorBackGroundTwo;
             }
 
             &:active {
