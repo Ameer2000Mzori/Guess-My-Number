@@ -49,36 +49,8 @@ const checkGuess = (numberVal) => {
     checkPoints();
     // check points
   } else {
-    // change text / color / and disable the button
-    startGussingText.textContent = "GOOD JOB";
-    TitleText.textContent = "YOU GOT IT";
-    TitleWrap.style.backgroundColor = "green";
-    TitleText.style.color = "white";
-    decorationLine.style.backgroundColor = "green";
-    decorationBox.style.backgroundColor = "green";
-    decorationLine.style.color = "white";
-    decorationBox.style.color = "white";
-    decorationText.textContent = `${randomNum}`;
-    decorationText.style.color = "white";
-    checkBtn.disabled = true;
-
-    // if else lader for higher score
-    if (highScoreVal > scoreVal) {
-      //// if highscore is higher
-      highScoreVal = highScoreVal;
-      console.log("before higher");
-      highScore.textContent = `highscore: ${highScoreVal}`;
-    } else if (highScoreVal < scoreVal) {
-      //// if highscore lower
-      highScoreVal = scoreVal;
-      console.log("higher then before");
-      highScore.textContent = `highscore: ${highScoreVal}`;
-    } else {
-      //// if highscore same
-      highScoreVal = highScoreVal;
-      console.log("both are same");
-      highScore.textContent = `highscore: ${highScoreVal}`;
-    }
+    // run the gussed num function
+    gussedNum();
   }
 };
 
@@ -130,6 +102,40 @@ const setEveryThingToNormal = () => {
   decorationText.style.color = "rgb(99, 91, 91)";
   decorationText.textContent = `?`;
   numberInput.value = 1;
+};
+
+// won the game function
+const gussedNum = () => {
+  // change text / color / and disable the button
+  startGussingText.textContent = "GOOD JOB";
+  TitleText.textContent = "YOU GOT IT";
+  TitleWrap.style.backgroundColor = "green";
+  TitleText.style.color = "white";
+  decorationLine.style.backgroundColor = "green";
+  decorationBox.style.backgroundColor = "green";
+  decorationLine.style.color = "white";
+  decorationBox.style.color = "white";
+  decorationText.textContent = `${randomNum}`;
+  decorationText.style.color = "white";
+  checkBtn.disabled = true;
+
+  // if else lader for higher score
+  if (highScoreVal > scoreVal) {
+    //// if highscore is higher
+    highScoreVal = highScoreVal;
+    console.log("before higher");
+    highScore.textContent = `highscore: ${highScoreVal}`;
+  } else if (highScoreVal < scoreVal) {
+    //// if highscore lower
+    highScoreVal = scoreVal;
+    console.log("higher then before");
+    highScore.textContent = `highscore: ${highScoreVal}`;
+  } else {
+    //// if highscore same
+    highScoreVal = highScoreVal;
+    console.log("both are same");
+    highScore.textContent = `highscore: ${highScoreVal}`;
+  }
 };
 
 // event listner
