@@ -6,7 +6,20 @@ body {
   font-family: "Black Ops One", sans-serif;
 }
 
-/* Apply the font to a specific element */
-h1 {
-  font-family: "Black Ops One", sans-serif;
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
+
+  .header-Wrap {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
