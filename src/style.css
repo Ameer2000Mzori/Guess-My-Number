@@ -134,3 +134,12 @@ body {
   border-radius: 15px;
   border: solid rgb(99, 91, 91) 3px;
 }
+
+.header .header-Wrap .score-Input-Wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  align-items: center;
+}

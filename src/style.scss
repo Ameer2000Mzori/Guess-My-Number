@@ -137,5 +137,14 @@ body {
         border: solid $colorBackGroundTwo 3px;
       }
     }
+
+    .score-Input-Wrap {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 50%;
+      text-align: center;
+      align-items: center;
+    }
   }
 }
