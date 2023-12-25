@@ -78,10 +78,18 @@ body {
 
 .header .header-Wrap .Title-Wrap {
   height: 20%;
-  width: 100%;
+  width: 30%;
   text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  background-color: white;
+  color: rgb(99, 91, 91);
+  border-radius: 2px;
+}
+
+.header .header-Wrap .Title-Wrap .Title-Text {
+  font-family: "Black Ops One", sans-serif;
+  font-size: 3rem;
 }
