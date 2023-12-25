@@ -6,6 +6,9 @@ const TitleText = document.getElementsByClassName("Title-Text")[0];
 const startGussingText = document.getElementsByClassName("score-1-Text")[0];
 const mainScore = document.getElementsByClassName("main-Score")[0];
 const highScore = document.getElementsByClassName("high-Score")[0];
+const TitleWrap = document.getElementsByClassName("Title-Wrap")[0];
+const decorationBox = document.getElementsByClassName("decorationBox")[0];
+const decorationLine = document.getElementsByClassName("decoration-Line")[0];
 const decorationText = document.getElementsByClassName("decoration-Text")[0];
 
 // gelobal varibales
