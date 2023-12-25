@@ -61,10 +61,36 @@ const checkGuess = (numberVal) => {
     decorationText.textContent = `${randomNum}`;
     decorationText.style.color = "white";
     checkBtn.disabled = true;
-    // check if the input is same
-    //// if highscore is higher
-    //// if highscore lower
-    //// if highscore same
+
+    // if else lader for higher score
+    if (highScoreVal > scoreVal) {
+      //// if highscore is higher
+      highScoreVal = highScoreVal;
+      console.log(
+        "this is higher score: ",
+        highScoreVal,
+        "this is new score",
+        scoreVal
+      );
+    } else if (highScoreVal < scoreVal) {
+      //// if highscore lower
+      highScoreVal = scoreVal;
+      console.log(
+        "this is higher score: ",
+        highScoreVal,
+        "this is new score",
+        scoreVal
+      );
+    } else {
+      //// if highscore same
+      highScoreVal = highScoreVal;
+      console.log(
+        "this is higher score: ",
+        highScoreVal,
+        "this is new score",
+        scoreVal
+      );
+    }
   }
 };
 
