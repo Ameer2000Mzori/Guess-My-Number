@@ -145,6 +145,16 @@ body {
       height: 50%;
       text-align: center;
       align-items: center;
+
+      .input-Wrap {
+        width: 50%;
+        height: 100%;
+        text-align: end;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+      }
     }
   }
 }
