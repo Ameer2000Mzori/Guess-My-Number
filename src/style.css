@@ -206,3 +206,13 @@ body {
 .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .check-Btn:active {
   transform: scale(0.9);
 }
+
+.header .header-Wrap .score-Input-Wrap .score-Wrap {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+}
