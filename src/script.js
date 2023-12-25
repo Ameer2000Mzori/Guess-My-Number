@@ -11,5 +11,7 @@ const decorationText = document.getElementsByClassName("decoration-Text")[0];
 // gelobal varibales
 
 // functions
+const checkNum = () => {};
 
 // event listner
+checkBtn.addEventListener("click", checkNum);
