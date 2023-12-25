@@ -56,11 +56,11 @@ const checkGuess = (numberVal) => {
 
 // check if having more score points or not functions
 const checkPoints = () => {
-  if (0 > scoreVal) {
+  if (0 >= scoreVal) {
     console.log("please restart the game you lost");
     TitleText.textContent = "please click on again! button.";
     checkBtn.disabled = true;
-    mainScore.textContent = `score: 0`;
+    mainScore.textContent = `score: ${scoreVal}`;
   } else {
     console.log("good to go");
   }
