@@ -52,6 +52,16 @@ body {
         color: $colorBackGroundTwo;
         font-family: $fontOne;
         font-size: 20px;
+        transition: all 50ms ease-in-out;
+        border: solid white 2px;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.1);
+          background-color: $colorBackGroundOne;
+          color: white;
+          border: solid white 2px;
+        }
       }
     }
   }
