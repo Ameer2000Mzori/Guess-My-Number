@@ -11,6 +11,8 @@ const decorationText = document.getElementsByClassName("decoration-Text")[0];
 // gelobal varibales
 let scoreVal = 20;
 let highScoreVal = 0;
+let randomNum;
+
 // functions
 const checkNum = () => {
   const numberVal = numberInput.value;
@@ -24,21 +26,28 @@ const checkNum = () => {
 // checkGuss function
 const checkGuess = (numberVal) => {
   // first create random number
-  let randomNum = Math.floor(Math.random() * 20) + 1;
-  console.log(randomNum);
 
   if (numberVal > randomNum) {
     // check if random num is lower then input
+    startGussingText.textContent = "LOWER";
     //// lower the score
   } else if (numberVal < randomNum) {
     // check if random num is higher then input
+    startGussingText.textContent = "HIGHER";
     //// lower the score
   } else {
+    startGussingText.textContent = "GOOD JOB";
     // check if the input is same
     //// if highscore is higher
     //// if highscore lower
     //// if highscore same
   }
+};
+
+// create random number  function
+const createRandNum = () => {
+  randomNum = Math.floor(Math.random() * 20) + 1;
+  console.log(randomNum);
 };
 
 // setValue to defualt function
@@ -49,4 +58,5 @@ const setValDefualt = () => {
 };
 
 // event listner
+createRandNum();
 checkBtn.addEventListener("click", checkNum);
