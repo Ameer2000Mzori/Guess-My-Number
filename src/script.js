@@ -11,7 +11,16 @@ const decorationText = document.getElementsByClassName("decoration-Text")[0];
 // gelobal varibales
 
 // functions
-const checkNum = () => {};
+const checkNum = () => {
+  const numberVal = numberInput.value;
+  if (numberVal < 21 && numberVal > 0) {
+    console.log("good");
+  } else {
+    numberInput.value = 10;
+    TitleText.textContent = `please enter something between 1 and 20`;
+    console.log("less then 20 and more then 0");
+  }
+};
 
 // event listner
 checkBtn.addEventListener("click", checkNum);
