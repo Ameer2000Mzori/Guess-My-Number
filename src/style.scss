@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 
+$fontOne: "Black Ops One", sans-serif;
+
 body {
   padding: 0;
   margin: 0;
+  background-color: rgb(39, 39, 39);
   font-family: "Black Ops One", sans-serif;
 }
 
@@ -38,6 +41,12 @@ body {
         align-items: center;
         display: flex;
         justify-content: center;
+      }
+
+      .again-Btn {
+        padding: 10px 40px;
+        color: rgb(39, 39, 39);
+        background-color: white;
       }
     }
   }
