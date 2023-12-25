@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -14,7 +13,6 @@ body {
   height: 100vh;
   justify-content: space-evenly;
 }
-
 .header .header-Wrap {
   width: 90%;
   height: 90%;
@@ -23,7 +21,6 @@ body {
   text-align: center;
   align-items: center;
 }
-
 .header .header-Wrap .again-And-Text-Wrap {
   display: flex;
   height: 10%;
@@ -32,3 +29,14 @@ body {
   align-items: center;
   width: 100%;
 }
+.header .header-Wrap .again-And-Text-Wrap .again-Left-Wrap,
+.header .header-Wrap .again-And-Text-Wrap .again-Right-Wrap {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

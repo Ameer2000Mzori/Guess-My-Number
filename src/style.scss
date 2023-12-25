@@ -29,6 +29,16 @@ body {
       justify-content: space-between;
       align-items: center;
       width: 100%;
+
+      .again-Left-Wrap,
+      .again-Right-Wrap {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 }
