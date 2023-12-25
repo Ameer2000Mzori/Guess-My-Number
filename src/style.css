@@ -165,7 +165,7 @@ body {
   gap: 30px;
 }
 
-.header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .text-Input {
+.header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .number-Input {
   width: 200px;
   height: 100px;
   background-color: transparent;
