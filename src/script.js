@@ -7,7 +7,7 @@ const startGussingText = document.getElementsByClassName("score-1-Text")[0];
 const mainScore = document.getElementsByClassName("main-Score")[0];
 const highScore = document.getElementsByClassName("high-Score")[0];
 const TitleWrap = document.getElementsByClassName("Title-Wrap")[0];
-const decorationBox = document.getElementsByClassName("decorationBox")[0];
+const decorationBox = document.getElementsByClassName("decoration-Box")[0];
 const decorationLine = document.getElementsByClassName("decoration-Line")[0];
 const decorationText = document.getElementsByClassName("decoration-Text")[0];
 
@@ -49,7 +49,13 @@ const checkGuess = (numberVal) => {
     checkPoints();
     // check points
   } else {
+    // change text / color / and disable the button
     startGussingText.textContent = "GOOD JOB";
+    TitleText.textContent = "YOU GOT IT";
+    decorationLine.style.backgroundColor = "green";
+    decorationBox.style.backgroundColor = "green";
+    decorationText.textContent = `${randomNum}`;
+    checkBtn.disabled = true;
     // check if the input is same
     //// if highscore is higher
     //// if highscore lower
@@ -89,9 +95,13 @@ const restartGame = () => {
   createRandNum();
   // set everything to normal
   scoreVal = 20;
+  mainScore.textContent = `score: ${scoreVal}`;
   TitleText.textContent = "GUESS MY NUMBER!";
   startGussingText.textContent = "Start gussing...";
   checkBtn.disabled = false;
+  decorationLine.style.backgroundColor = "white";
+  decorationBox.style.backgroundColor = "white";
+  decorationText.textContent = `?`;
 };
 
 // event listner
