@@ -228,17 +228,45 @@ body {
   gap: 30px;
 }
 
-.header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper .score-1-Text {
+.header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper .title-Text-Score-Wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: start;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper .title-Text-Score-Wrap .score-1-Text {
   color: aliceblue;
   font-size: 2rem;
+}
+
+.header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: start;
+  height: 50%;
+  padding: 0;
+  margin: 0;
 }
 
 .header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .main-Score {
   color: aliceblue;
   font-size: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 .header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .high-Score {
   color: aliceblue;
   font-size: 2rem;
+  padding: 0;
+  margin: 0;
 }

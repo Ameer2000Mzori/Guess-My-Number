@@ -228,21 +228,47 @@ body {
           flex-direction: column;
           gap: 30px;
 
-          .score-1-Text {
-            color: aliceblue;
-            font-size: 2rem;
+          .title-Text-Score-Wrap {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            justify-content: center;
+            align-items: start;
+            height: 50%;
+            padding: 0;
+            margin: 0;
+
+            .score-1-Text {
+              color: aliceblue;
+              font-size: 2rem;
+            }
           }
         }
 
         .Score-Number-Wrap {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          text-align: start;
+          justify-content: center;
+          align-items: start;
+          height: 50%;
+          padding: 0;
+          margin: 0;
+
           .main-Score {
             color: aliceblue;
             font-size: 2rem;
+            padding: 0;
+            margin: 0;
           }
 
           .high-Score {
             color: aliceblue;
             font-size: 2rem;
+            padding: 0;
+            margin: 0;
           }
         }
       }
