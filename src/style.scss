@@ -179,6 +179,20 @@ body {
             flex-direction: column;
             font-size: 5rem;
           }
+
+          .check-Btn {
+            width: 200px;
+            height: 100px;
+            background-color: transparent;
+            color: white;
+            border: solid white 5px;
+            font-family: $fontOne;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+          }
         }
       }
     }
