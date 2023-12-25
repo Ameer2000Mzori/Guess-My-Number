@@ -82,10 +82,13 @@ const setValDefualt = () => {
 
 // restarting game function
 const restartGame = () => {
-  scoreVal = 20;
+  // create new randomNumber
   createRandNum();
+  // set everything to normal
+  scoreVal = 20;
   TitleText.textContent = "GUESS MY NUMBER!";
   startGussingText.textContent = "Start gussing...";
+  checkBtn.disabled = false;
 };
 
 // event listner
