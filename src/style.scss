@@ -81,7 +81,7 @@ body {
 
     .Title-Wrap {
       height: 10%;
-      width: 30%;
+      width: 100%;
       text-align: center;
       align-items: center;
       justify-content: center;
@@ -165,8 +165,8 @@ body {
           align-items: center;
           justify-content: center;
           flex-direction: column;
-          width: 50%;
-          height: 100%;
+          width: 100%;
+          height: 50%;
           gap: 30px;
 
           .number-Input {
@@ -227,8 +227,8 @@ body {
         border-bottom: none;
 
         .score-Wrap-Wrapper {
-          width: 50%;
-          height: 100%;
+          width: 100%;
+          height: 50%;
           display: flex;
           text-align: center;
           align-items: center;
