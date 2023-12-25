@@ -35,18 +35,34 @@ const checkGuess = (numberVal) => {
     scoreVal--;
     mainScore.textContent = `score: ${scoreVal}`;
     //// lower the score
+    checkPoints();
+    // check points
   } else if (numberVal < randomNum) {
     // check if random num is higher then input
     startGussingText.textContent = "HIGHER";
     scoreVal--;
     mainScore.textContent = `score: ${scoreVal}`;
     //// lower the score
+    checkPoints();
+    // check points
   } else {
     startGussingText.textContent = "GOOD JOB";
     // check if the input is same
     //// if highscore is higher
     //// if highscore lower
     //// if highscore same
+  }
+};
+
+// check if having more score points or not functions
+const checkPoints = () => {
+  if (0 > scoreVal) {
+    console.log("please restart the game you lost");
+    TitleText.textContent = "please click on again! button.";
+    checkBtn.disabled = true;
+    mainScore.textContent = `score: 0`;
+  } else {
+    console.log("good to go");
   }
 };
 
