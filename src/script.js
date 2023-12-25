@@ -27,13 +27,19 @@ const checkNum = () => {
 const checkGuess = (numberVal) => {
   // first create random number
 
+  // check if score is less then 0 if its restart the game.
+
   if (numberVal > randomNum) {
     // check if random num is lower then input
     startGussingText.textContent = "LOWER";
+    scoreVal--;
+    mainScore.textContent = `score: ${scoreVal}`;
     //// lower the score
   } else if (numberVal < randomNum) {
     // check if random num is higher then input
     startGussingText.textContent = "HIGHER";
+    scoreVal--;
+    mainScore.textContent = `score: ${scoreVal}`;
     //// lower the score
   } else {
     startGussingText.textContent = "GOOD JOB";
