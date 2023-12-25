@@ -215,6 +215,10 @@ body {
   justify-content: center;
   align-items: start;
   text-align: start;
+  border: solid white 10px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
 }
 
 .header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper {
