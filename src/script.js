@@ -59,6 +59,7 @@ const checkPoints = () => {
   if (0 >= scoreVal) {
     console.log("please restart the game you lost");
     TitleText.textContent = "please click on again! button.";
+    startGussingText.textContent = "YOU LOST! please click on again! button.";
     checkBtn.disabled = true;
     mainScore.textContent = `score: ${scoreVal}`;
   } else {
@@ -79,6 +80,15 @@ const setValDefualt = () => {
   console.log("less then 20 and more then 0");
 };
 
+// restarting game function
+const restartGame = () => {
+  scoreVal = 20;
+  createRandNum();
+  TitleText.textContent = "GUESS MY NUMBER!";
+  startGussingText.textContent = "Start gussing...";
+};
+
 // event listner
 createRandNum();
 checkBtn.addEventListener("click", checkNum);
+againBtn.addEventListener("click", restartGame);
