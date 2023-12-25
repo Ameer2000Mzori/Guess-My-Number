@@ -95,9 +95,14 @@ const setValDefualt = () => {
 
 // restarting game function
 const restartGame = () => {
-  // create new randomNumber
+  // create new randomNumber function
   createRandNum();
-  // set everything to normal
+  // set everything to normal function
+  setEveryThingToNormal();
+};
+
+// this  is set Every Thing To Normal function
+const setEveryThingToNormal = () => {
   scoreVal = 20;
   mainScore.textContent = `score: ${scoreVal}`;
   TitleText.textContent = "GUESS MY NUMBER!";
