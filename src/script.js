@@ -52,8 +52,12 @@ const checkGuess = (numberVal) => {
     // change text / color / and disable the button
     startGussingText.textContent = "GOOD JOB";
     TitleText.textContent = "YOU GOT IT";
+    TitleWrap.style.backgroundColor = "green";
+    TitleText.style.color = "white";
     decorationLine.style.backgroundColor = "green";
     decorationBox.style.backgroundColor = "green";
+    decorationLine.style.color = "white";
+    decorationBox.style.color = "white";
     decorationText.textContent = `${randomNum}`;
     checkBtn.disabled = true;
     // check if the input is same
@@ -101,7 +105,11 @@ const restartGame = () => {
   checkBtn.disabled = false;
   decorationLine.style.backgroundColor = "white";
   decorationBox.style.backgroundColor = "white";
+  TitleWrap.style.backgroundColor = "white";
+  TitleText.style.color = "rgb(99, 91, 91)";
+  decorationText.style.color = "rgb(99, 91, 91)";
   decorationText.textContent = `?`;
+  numberInput.value = 1;
 };
 
 // event listner

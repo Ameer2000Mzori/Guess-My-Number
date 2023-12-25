@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -15,7 +14,6 @@ body {
   height: 100vh;
   justify-content: space-evenly;
 }
-
 .header .header-Wrap {
   width: 90%;
   height: 90%;
@@ -24,7 +22,6 @@ body {
   text-align: center;
   align-items: center;
 }
-
 .header .header-Wrap .again-And-Text-Wrap {
   display: flex;
   height: 10%;
@@ -33,7 +30,6 @@ body {
   align-items: center;
   width: 100%;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Left-Wrap,
 .header .header-Wrap .again-And-Text-Wrap .again-Right-Wrap {
   width: 50%;
@@ -43,7 +39,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Btn {
   padding: 10px 40px;
   background-color: rgb(255, 254, 254);
@@ -54,18 +49,15 @@ body {
   border: solid white 2px;
   cursor: pointer;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Btn:hover {
   transform: scale(1.1);
   background-color: rgb(39, 39, 39);
   color: white;
   border: solid white 2px;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Btn:active {
   transform: scale(0.9);
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Right-Text {
   background-color: white;
   color: rgb(99, 91, 91);
@@ -75,7 +67,6 @@ body {
   border-radius: 2px;
   padding: 10px;
 }
-
 .header .header-Wrap .Title-Wrap {
   height: 10%;
   width: 100%;
@@ -88,12 +79,10 @@ body {
   color: rgb(99, 91, 91);
   border-radius: 2px;
 }
-
 .header .header-Wrap .Title-Wrap .Title-Text {
   font-family: "Black Ops One", sans-serif;
   font-size: 3rem;
 }
-
 .header .header-Wrap .decoration-Wrap {
   height: 30%;
   width: 100%;
@@ -104,7 +93,6 @@ body {
   justify-content: center;
   position: relative;
 }
-
 .header .header-Wrap .decoration-Wrap .decoration-Box {
   position: absolute;
   height: 200px;
@@ -120,14 +108,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-  border: solid rgb(99, 91, 91) 3px;
   z-index: 5;
 }
-
 .header .header-Wrap .decoration-Wrap .decoration-Box .decoration-Text {
   font-size: 8rem;
 }
-
 .header .header-Wrap .decoration-Wrap .decoration-Line {
   width: 100%;
   height: 15px;
@@ -136,9 +121,7 @@ body {
   top: 46%;
   left: 0;
   border-radius: 15px;
-  border: solid rgb(99, 91, 91) 3px;
 }
-
 .header .header-Wrap .score-Input-Wrap {
   display: flex;
   flex-direction: row;
@@ -147,7 +130,6 @@ body {
   text-align: center;
   align-items: center;
 }
-
 .header .header-Wrap .score-Input-Wrap .input-Wrap {
   width: 50%;
   height: 100%;
@@ -157,7 +139,6 @@ body {
   align-items: end;
   text-align: end;
 }
-
 .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap {
   display: flex;
   text-align: center;
@@ -168,7 +149,6 @@ body {
   height: 50%;
   gap: 30px;
 }
-
 .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .number-Input {
   width: 200px;
   height: 100px;
@@ -183,7 +163,6 @@ body {
   flex-direction: column;
   font-size: 5rem;
 }
-
 .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .check-Btn {
   width: 200px;
   height: 100px;
@@ -199,18 +178,15 @@ body {
   transition: all 50ms ease-in-out;
   cursor: pointer;
 }
-
 .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .check-Btn:hover {
   transform: scale(1.1);
   background-color: white;
   border: solid rgb(99, 91, 91) 5px;
   color: rgb(99, 91, 91);
 }
-
 .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .check-Btn:active {
   transform: scale(0.9);
 }
-
 .header .header-Wrap .score-Input-Wrap .score-Wrap {
   width: 50%;
   height: 100%;
@@ -224,7 +200,6 @@ body {
   border-top: none;
   border-bottom: none;
 }
-
 .header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper {
   width: 100%;
   height: 50%;
@@ -235,7 +210,6 @@ body {
   flex-direction: column;
   gap: 30px;
 }
-
 .header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper .title-Text-Score-Wrap {
   width: 90%;
   display: flex;
@@ -247,12 +221,10 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper .title-Text-Score-Wrap .score-1-Text {
   color: aliceblue;
   font-size: 2rem;
 }
-
 .header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap {
   width: 90%;
   display: flex;
@@ -264,14 +236,12 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .main-Score {
   color: aliceblue;
   font-size: 2rem;
   padding: 0;
   margin: 0;
 }
-
 .header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .high-Score {
   color: aliceblue;
   font-size: 2rem;
@@ -284,7 +254,6 @@ body {
     padding: 10px 40px;
     font-size: 15px;
   }
-
   .header .header-Wrap .again-And-Text-Wrap .again-Right-Text {
     padding: 0;
     text-align: center;
@@ -295,21 +264,17 @@ body {
     height: 50px;
     font-size: 0.8rem;
   }
-
   .header .header-Wrap .Title-Wrap .Title-Text {
     font-size: 1.3rem;
   }
-
   .header .header-Wrap .decoration-Wrap .decoration-Box {
     height: 100px;
     width: 100px;
     border: none;
   }
-
   .header .header-Wrap .decoration-Wrap .decoration-Box .decoration-Text {
     font-size: 4rem;
   }
-
   .header .header-Wrap .decoration-Wrap .decoration-Line {
     width: 100%;
     height: 3px;
@@ -317,37 +282,32 @@ body {
     left: 0;
     border: none;
   }
-
   .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .number-Input {
     font-size: 2rem;
     width: 75%;
   }
-
   .header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .check-Btn {
     font-size: 1.2rem;
     width: 75%;
   }
-
   .header .header-Wrap .score-Input-Wrap .score-Wrap {
     border: solid white 5px;
     border-right: none;
     border-top: none;
     border-bottom: none;
   }
-
   .header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper {
     gap: 15px;
   }
-
   .header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper .title-Text-Score-Wrap .score-1-Text {
     font-size: 1.2rem;
   }
-
   .header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .main-Score {
     font-size: 1.2rem;
   }
-
   .header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .high-Score {
     font-size: 1.2rem;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

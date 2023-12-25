@@ -122,7 +122,6 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         overflow: hidden;
-        border: solid $colorBackGroundTwo 3px;
         z-index: 5;
 
         .decoration-Text {
@@ -138,7 +137,6 @@ body {
         top: 46%;
         left: 0;
         border-radius: 15px;
-        border: solid $colorBackGroundTwo 3px;
       }
     }
 
