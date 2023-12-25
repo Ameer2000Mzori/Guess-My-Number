@@ -61,3 +61,7 @@ body {
   color: white;
   border: solid white 2px;
 }
+
+.header .header-Wrap .again-And-Text-Wrap .again-Btn:active {
+  transform: scale(0.9);
+}
