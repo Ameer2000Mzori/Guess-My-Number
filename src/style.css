@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -15,7 +14,6 @@ body {
   height: 100vh;
   justify-content: space-evenly;
 }
-
 .header .header-Wrap {
   width: 90%;
   height: 90%;
@@ -24,7 +22,6 @@ body {
   text-align: center;
   align-items: center;
 }
-
 .header .header-Wrap .again-And-Text-Wrap {
   display: flex;
   height: 10%;
@@ -33,7 +30,6 @@ body {
   align-items: center;
   width: 100%;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Left-Wrap,
 .header .header-Wrap .again-And-Text-Wrap .again-Right-Wrap {
   width: 50%;
@@ -43,7 +39,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Btn {
   padding: 10px 40px;
   background-color: rgb(255, 254, 254);
@@ -54,18 +49,15 @@ body {
   border: solid white 2px;
   cursor: pointer;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Btn:hover {
   transform: scale(1.1);
   background-color: rgb(39, 39, 39);
   color: white;
   border: solid white 2px;
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Btn:active {
   transform: scale(0.9);
 }
-
 .header .header-Wrap .again-And-Text-Wrap .again-Right-Text {
   background-color: white;
   color: rgb(99, 91, 91);
@@ -75,3 +67,14 @@ body {
   border-radius: 2px;
   padding: 10px;
 }
+.header .header-Wrap .Title-Wrap {
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
