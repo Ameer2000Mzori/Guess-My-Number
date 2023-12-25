@@ -59,6 +59,7 @@ const checkGuess = (numberVal) => {
     decorationLine.style.color = "white";
     decorationBox.style.color = "white";
     decorationText.textContent = `${randomNum}`;
+    decorationText.style.color = "white";
     checkBtn.disabled = true;
     // check if the input is same
     //// if highscore is higher
