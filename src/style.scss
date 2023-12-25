@@ -21,5 +21,13 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+
+    .again-And-Text-Wrap {
+      display: flex;
+      height: 40%;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
   }
 }
