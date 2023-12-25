@@ -124,6 +124,10 @@ body {
         overflow: hidden;
         border: solid $colorBackGroundTwo 3px;
         z-index: 5;
+
+        .decoration-Text {
+          font-size: 8rem;
+        }
       }
 
       .decoration-Line {
