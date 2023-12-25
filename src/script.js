@@ -15,23 +15,30 @@ let highScoreVal = 0;
 const checkNum = () => {
   const numberVal = numberInput.value;
   if (numberVal < 21 && numberVal > 0) {
-    checkGuess();
+    checkGuess(numberVal);
   } else {
     setValDefualt();
   }
 };
 
 // checkGuss function
-const checkGuess = () => {
+const checkGuess = (numberVal) => {
   // first create random number
-  // check if random num is higher then input
-  //// lower the score
-  // check if random num is lower then input
-  //// lower the score
-  // check if the input is same
-  //// if highscore is higher
-  //// if highscore lower
-  //// if highscore same
+  let randomNum = Math.floor(Math.random() * 20) + 1;
+  console.log(randomNum);
+
+  if (numberVal > randomNum) {
+    // check if random num is lower then input
+    //// lower the score
+  } else if (numberVal < randomNum) {
+    // check if random num is higher then input
+    //// lower the score
+  } else {
+    // check if the input is same
+    //// if highscore is higher
+    //// if highscore lower
+    //// if highscore same
+  }
 };
 
 // setValue to defualt function
