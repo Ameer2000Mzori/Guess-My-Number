@@ -227,6 +227,23 @@ body {
           justify-content: center;
           flex-direction: column;
           gap: 30px;
+
+          .score-1-Text {
+            color: aliceblue;
+            font-size: 2rem;
+          }
+        }
+
+        .Score-Number-Wrap {
+          .main-Score {
+            color: aliceblue;
+            font-size: 2rem;
+          }
+
+          .high-Score {
+            color: aliceblue;
+            font-size: 2rem;
+          }
         }
       }
     }

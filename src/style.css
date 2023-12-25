@@ -227,3 +227,18 @@ body {
   flex-direction: column;
   gap: 30px;
 }
+
+.header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper .score-1-Text {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .main-Score {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.header .header-Wrap .score-Input-Wrap .score-Wrap .Score-Number-Wrap .high-Score {
+  color: aliceblue;
+  font-size: 2rem;
+}
