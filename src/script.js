@@ -9,7 +9,8 @@ const highScore = document.getElementsByClassName("high-Score")[0];
 const decorationText = document.getElementsByClassName("decoration-Text")[0];
 
 // gelobal varibales
-
+let scoreVal = 20;
+let highScoreVal = 0;
 // functions
 const checkNum = () => {
   const numberVal = numberInput.value;
