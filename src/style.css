@@ -216,3 +216,14 @@ body {
   align-items: start;
   text-align: start;
 }
+
+.header .header-Wrap .score-Input-Wrap .score-Wrap .score-Wrap-Wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
