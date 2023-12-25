@@ -21,7 +21,17 @@ const checkNum = () => {
 };
 
 // checkGuss function
-const checkGuess = () => {};
+const checkGuess = () => {
+  // first create random number
+  // check if random num is higher then input
+  //// lower the score
+  // check if random num is lower then input
+  //// lower the score
+  // check if the input is same
+  //// if highscore is higher
+  //// if highscore lower
+  //// if highscore same
+};
 
 // setValue to defualt function
 const setValDefualt = () => {
