@@ -14,13 +14,16 @@ const decorationText = document.getElementsByClassName("decoration-Text")[0];
 const checkNum = () => {
   const numberVal = numberInput.value;
   if (numberVal < 21 && numberVal > 0) {
-    console.log("good");
+    checkGuess();
   } else {
     setValDefualt();
   }
 };
 
-// setValue to defualt
+// checkGuss function
+const checkGuess = () => {};
+
+// setValue to defualt function
 const setValDefualt = () => {
   numberInput.value = 1;
   TitleText.textContent = `please enter something between 1 and 20`;
