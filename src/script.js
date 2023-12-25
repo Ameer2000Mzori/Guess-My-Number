@@ -67,17 +67,17 @@ const checkGuess = (numberVal) => {
       //// if highscore is higher
       highScoreVal = highScoreVal;
       console.log("before higher");
-      highScore.textContent = `${highScoreVal}`;
+      highScore.textContent = `highscore: ${highScoreVal}`;
     } else if (highScoreVal < scoreVal) {
       //// if highscore lower
       highScoreVal = scoreVal;
       console.log("higher then before");
-      highScore.textContent = `${highScoreVal}`;
+      highScore.textContent = `highscore: ${highScoreVal}`;
     } else {
       //// if highscore same
       highScoreVal = highScoreVal;
       console.log("both are same");
-      highScore.textContent = `${highScoreVal}`;
+      highScore.textContent = `highscore: ${highScoreVal}`;
     }
   }
 };
