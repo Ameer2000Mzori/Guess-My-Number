@@ -69,10 +69,13 @@ body {
       }
 
       .again-Right-Text {
+        background-color: white;
+        color: $colorBackGroundTwo;
         font-size: 1.5rem;
-        color: white;
         display: flex;
         gap: 5px;
+        border-radius: 2px;
+        padding: 10px;
       }
     }
   }

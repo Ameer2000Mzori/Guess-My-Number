@@ -67,8 +67,11 @@ body {
 }
 
 .header .header-Wrap .again-And-Text-Wrap .again-Right-Text {
+  background-color: white;
+  color: rgb(99, 91, 91);
   font-size: 1.5rem;
-  color: white;
   display: flex;
   gap: 5px;
+  border-radius: 2px;
+  padding: 10px;
 }
