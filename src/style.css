@@ -65,3 +65,10 @@ body {
 .header .header-Wrap .again-And-Text-Wrap .again-Btn:active {
   transform: scale(0.9);
 }
+
+.header .header-Wrap .again-And-Text-Wrap .again-Right-Text {
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  gap: 5px;
+}
