@@ -193,3 +193,11 @@ body {
   justify-content: center;
   font-size: 2.5rem;
 }
+
+.header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .check-Btn:hover {
+  transform: scale(1.1);
+}
+
+.header .header-Wrap .score-Input-Wrap .input-Wrap .input-Btn-Wrap .check-Btn:active {
+  transform: scale(0.9);
+}

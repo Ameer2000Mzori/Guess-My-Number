@@ -192,6 +192,14 @@ body {
             align-items: center;
             justify-content: center;
             font-size: 2.5rem;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+
+            &:active {
+              transform: scale(0.9);
+            }
           }
         }
       }
